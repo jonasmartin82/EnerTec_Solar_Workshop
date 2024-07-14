@@ -64,17 +64,17 @@ with col3:
 
 # xxx #
 
-if "Berechnen" not in st.session_state:
-    st.session_state["Berechnen"] = False
+if "Berechnen (Versuch 6)" not in st.session_state:
+    st.session_state["Berechnen (Versuch 6)"] = False
     
-if "Zeichnen" not in st.session_state:
-    st.session_state["Zeichnen"] = False
+if "Zeichnen (Versuch 6)" not in st.session_state:
+    st.session_state["Zeichnen (Versuch 6)"] = False
 
-if "Erklärung" not in st.session_state:
-    st.session_state["Erklärung"] = False
+if "Erklärung (Versuch 6)" not in st.session_state:
+    st.session_state["Erklärung (Versuch 6)"] = False
     
-if "Einblenden" not in st.session_state:
-    st.session_state["Einblenden"] = False
+if "Einblenden (Versuch 6)" not in st.session_state:
+    st.session_state["Einblenden (Versuch 6)"] = False
  
 # xxx # 
 
@@ -84,8 +84,8 @@ with colA:
     st.write('')
     
 with colB:
-    if st.button(label='Berechnen', type='primary'):
-        st.session_state['Berechnen'] = not st.session_state['Berechnen'] 
+    if st.button(label='Berechnen (Versuch 6)', type='primary'):
+        st.session_state['Berechnen (Versuch 6)'] = not st.session_state['Berechnen (Versuch 6)'] 
     
     Area = val_2 * val_3 * 0.0001
     P_auf = Area * val_1
@@ -99,7 +99,7 @@ with colA:
     st.write('')
     
 with colB:   
-    if st.session_state['Berechnen']:
+    if st.session_state['Berechnen (Versuch 6)']:
         st.write('Aufgenommene Leistung P_auf in W ist:', P_auf)
     
 with colC:
@@ -173,8 +173,8 @@ with colA:
     st.write('')
     
 with colB:
-    if st.button(label='Zeichnen', type='primary'):
-        st.session_state['Zeichnen'] = not st.session_state['Zeichnen']
+    if st.button(label='Zeichnen (Versuch 6)', type='primary'):
+        st.session_state['Zeichnen (Versuch 6)'] = not st.session_state['Zeichnen (Versuch 6)']
     
 with colC:
     st.write('')
@@ -206,7 +206,7 @@ plt.xlabel('Spannung U in V')
 plt.ylabel('Leistung P in mW')
 plt.grid()
 
-if st.session_state['Zeichnen']:
+if st.session_state['Zeichnen (Versuch 6)']:
     col1, col2, col3, col4 = st.columns([0.1, 0.4, 0.4, 0.1])
     
     with col1:
@@ -238,13 +238,13 @@ if st.session_state['Zeichnen']:
 
 col1, col2, col3 = st.columns([0.45, 0.1, 0.45])
 
-if st.session_state['Zeichnen']:
+if st.session_state['Zeichnen (Versuch 6)']:
     with col1:
         st.write('')
     with col2:
         st.write('')
-        if st.button(label='Erklärung'):
-            st.session_state['Erklärung'] = not st.session_state['Erklärung']
+        if st.button(label='Erklärung (Versuch 6)'):
+            st.session_state['Erklärung (Versuch 6)'] = not st.session_state['Erklärung (Versuch 6)']
     with col3:
         st.write('')
     
@@ -252,7 +252,7 @@ if st.session_state['Zeichnen']:
     
 # ------------------------------------------------------------------------------------------------------------------------ #
 
-if st.session_state['Erklärung']:
+if st.session_state['Erklärung (Versuch 6)']:
     
     st.subheader('Erklärung:')
     
@@ -270,8 +270,8 @@ if st.session_state['Erklärung']:
         st.write('')
     with col2:
         st.write('')
-        if st.button(label='Einblenden'):
-            st.session_state['Einblenden'] = not st.session_state['Einblenden']
+        if st.button(label='Einblenden (Versuch 6)'):
+            st.session_state['Einblenden (Versuch 6)'] = not st.session_state['Einblenden (Versuch 6)']
     with col3:
         st.write('')
     
