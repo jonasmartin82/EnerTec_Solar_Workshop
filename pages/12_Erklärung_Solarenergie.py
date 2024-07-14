@@ -34,7 +34,7 @@ st.write('Quelle: https://www.kindernetz.de/wissen/steckbrief-die-sonne-102.html
 
 st.write('Die Quelle der Solarenergie ist, wie der Name schon vermuten lässt, unsere Sonne selbst. In dem Stern unseres Sonnensystems findet dabei ein Prozess statt, der sich Kernfusion nennt. Dabei verbinden sich im Gegensatz zur Atomkraft, wie wir sie kennen, mehrere kleine Atome Wasserstoff zu einem größeren Atom Helium und setzen dabei zusätzliche Energie frei.')
 
-st.image('page_12_pic_2.png')
+st.image('page_12_pic_2.PNG')
 
 st.write('Quelle: https://sonnenallianz.spitzen-praevention.com/sonne-und-gesundheit/unsere-sonne/')
 
