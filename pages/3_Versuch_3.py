@@ -75,11 +75,11 @@ with col4:
 
 # xxx #
 
-if "Zeichnen" not in st.session_state:
-    st.session_state["Zeichnen"] = False
+if "Zeichnen (Versuch 3)" not in st.session_state:
+    st.session_state["Zeichnen (Versuch 3)"] = False
 
-if "Erklärung" not in st.session_state:
-    st.session_state["Erklärung"] = False
+if "Erklärung (Versuch 3)" not in st.session_state:
+    st.session_state["Erklärung (Versuch 3)"] = False
  
 # xxx # 
 
@@ -89,8 +89,8 @@ with colA:
     st.write('')
     
 with colB:
-    if st.button(label='Zeichnen', type='primary'):
-        st.session_state['Zeichnen'] = not st.session_state['Zeichnen']
+    if st.button(label='Zeichnen (Versuch 3)', type='primary'):
+        st.session_state['Zeichnen (Versuch 3)'] = not st.session_state['Zeichnen (Versuch 3)']
     
 with colC:
     st.write('')
@@ -119,7 +119,7 @@ plt.grid()
 
 col1, col2, col3, col4 = st.columns([0.1, 0.4, 0.4, 0.1])
 
-if st.session_state['Zeichnen']:
+if st.session_state['Zeichnen (Versuch 3)']:
     with col1:
         st.write('')
     with col2:
@@ -137,13 +137,13 @@ if st.session_state['Zeichnen']:
 
 col1, col2, col3 = st.columns([0.45, 0.1, 0.45])
 
-if st.session_state['Zeichnen']:
+if st.session_state['Zeichnen (Versuch 3)']:
     with col1:
         st.write('')
     with col2:
         st.write('')
-        if st.button(label='Erklärung'):
-            st.session_state['Erklärung'] = not st.session_state['Erklärung']
+        if st.button(label='Erklärung (Versuch 3)'):
+            st.session_state['Erklärung (Versuch 3)'] = not st.session_state['Erklärung (Versuch 3)']
     with col3:
         st.write('')
     
@@ -151,7 +151,7 @@ if st.session_state['Zeichnen']:
     
 # ------------------------------------------------------------------------------------------------------------------------ #
 
-if st.session_state['Erklärung']:
+if st.session_state['Erklärung (Versuch 3)']:
     
     st.subheader('Erklärung:')
     
