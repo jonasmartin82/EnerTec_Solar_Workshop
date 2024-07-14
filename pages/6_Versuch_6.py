@@ -275,7 +275,7 @@ if st.session_state['Erklärung (Versuch 6)']:
     with col3:
         st.write('')
     
-    if st.session_state['Einblenden']:
+    if st.session_state['Einblenden (Versuch 6)']:
       
         st.write('---')
         
