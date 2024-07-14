@@ -64,7 +64,7 @@ st.write('---')
 
 st.subheader('Rot mV')
 
-st.image('rot_mv.png', width=500)
+st.image('rot_mV.png', width=500)
 
 st.write('---')
 
@@ -80,7 +80,7 @@ st.write('---')
 
 st.subheader('Rot mA')
 
-st.image('rot_ma.png', width=500)
+st.image('rot_mA.png', width=500)
 
 st.write('---')
 
