@@ -129,13 +129,13 @@ st.subheader('Anteil am Strommix')
 
 st.write('Im folgenden beschäftigen wir uns mit dem Anteil der Solarenergie an der Stromerzeugung beziehungsweise dem Anteil des Stroms an der Gesamtenergie.')
 
-st.image('page_12_pic_8.png')
+st.image('page_12_pic_8.png', width=800)
 
 st.write('Quelle: https://www.unendlich-viel-energie.de/mediathek/grafiken/der-strommix-in-deutschland-im-jahr-2023')
 
 st.write('Die Abbildung oben zeigt den Strommix in Deutschland im Jahr 2023. Man sieht, dass die erneuerbaren Energien einen Anteil von 52% an der gesamten Stromerzeugung haben. Die Photovoltaik nimmt mit 11,9% an der Gesamtstromerzeugung neben der Windkraft den größten Anteil ein. Auch wenn diese Zahlen vielversprechend aussehen, ist noch ein großer Bedarf vorhanden erneuerbare Energien weiter auszubauen damit unser Strom irgendwann zu 100% aus erneuerbaren Energiequellen gewonnen werden kann.')
 
-st.image('page_12_pic_9.png')
+st.image('page_12_pic_9.png', width=800)
 
 st.write('Quelle: https://www.umweltbundesamt.de/daten/energie/primaerenergieverbrauch#definition-und-einflussfaktoren')
 
